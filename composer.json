@@ -6,6 +6,7 @@
             "email": "mobiniranir@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": ">=7.3.9",
         "laravel/framework": "8.*"
