@@ -1,0 +1,26 @@
+{
+    "name": "mobin/visit-package",
+    "authors": [
+        {
+            "name": "mobin roshnas",
+            "email": "mobiniranir@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "illuminate/database":">=5.0",
+        "illuminate/support":">=5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mobin\\VisitPackage\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel":{
+            "providers":[
+                "Mobin\\VisitPackage\\VisitServiceProvider"
+            ]
+        }
+    }
+}
