@@ -19,13 +19,14 @@
         "laravel":{
             "providers":[
                 "Mobin\\VisitPackage\\VisitServiceProvider"
+            ],
+            "repositories": [
+                {
+                    "type": "git",
+                    "url": "git@github.com:mobinroshnas/VisitPackage-laravel.git"
+                }
             ]
         }
-    },
-    "repositories": [
-        {
-            "type": "git",
-            "url": "git@github.com:mobinroshnas/VisitPackage-laravel.git"
-        }
-    ],
+    }
+
 }
