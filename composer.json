@@ -7,27 +7,21 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {
-        "php": ">=7.3.9",
-        "laravel/framework": "8.*"
-    },
-    "autoload": {
-        "psr-4": {
-            "Mobin\\VisitPackage\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel":{
-            "providers":[
-                "Mobin\\VisitPackage\\VisitServiceProvider"
-            ],
-            "repositories": [
-                {
-                    "type": "git",
-                    "url": "git@github.com:mobinroshnas/VisitPackage-laravel.git"
-                }
-            ]
-        }
-    }
+	"require": {
+		"php": ">=7.3.9"
+	},
+	"autoload": {
+		"psr-4": {
+			"Mobin\\VisitPackage\\": "src/"
+		}
+	},
+
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Mobin\\VisitPackage\\VisitServiceProvider"
+			]
+		}
+	}
 
 }
