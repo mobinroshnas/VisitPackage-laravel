@@ -24,5 +24,8 @@ class VisitServiceProvider extends ServiceProvider
     {
         Visit::make();
         $this->loadMigrationsFrom(__DIR__.'/migrations');
+        $this->publishes([
+			realpath(__DIR__.'/migrations') => database_path('migrations')
+		], 'migrations');
     }
 }
