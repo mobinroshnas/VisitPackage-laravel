@@ -18,6 +18,15 @@ if you're using Laravel version 5.5+, Likeable package will be auto-discovered b
 	\Mobin\VisitPackage\VisitServiceProvider::class,
 ],
 ```
+Useage
+Get statistics in the controls of the pages you want:
+```
+Visit::make();
+```
+Show total hits
+```
+Visit::count(); 
+```
 > Credits:
 > Mobiniranir@gmail.com
 
