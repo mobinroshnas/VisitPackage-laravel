@@ -3,7 +3,7 @@ Using this package, you can save the information including the IP and its browse
 
 Composer Install (for Laravel 5+)
 ```
-composer require Mobin/VisitPackage
+composer require mobin/visit-package
 ```
 Publish and Run the migrations
 ```
